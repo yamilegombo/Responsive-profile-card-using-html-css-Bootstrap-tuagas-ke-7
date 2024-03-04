@@ -1,0 +1,76 @@
+/*
+body-bg color:Linear-gradien(-20deg,#ff2846 0x, #6944ff 100%);
+Image shadow: rgb(238 43 90) 0px 5px 50px 0px, rgb(117 65 239 / 73%)0px 0px 0px 7px;
+
+Box shadow
+box-shadow::0px 8px 60px -10px rgb(13 28 39 / 60%);
+
+Facebook
+backgraund:linear-gradien(45deg, #3b5998, #0078d7);
+box-shadow:0px 4px 20px rgb(43 98 169 / 50%);
+
+Instagram
+Backgraund:linear-gradien(45deg, #405de6, #5851db, #833ab4, #c13584, #c1306c, #fd1d1d);
+box-shadow:0px 4px 3px rgb(19 127 212 / 70%);
+
+Twitter
+backraund:linear-gradien(45deg, #1da1fa, #0e71c8);
+box-shadouw: 0px, 4px, 30px,rgb(19 127 212 / 70%);
+
+Github
+backraund: linear-gradien(45deg, #333333, #626673);
+box-shadow:0px, 4px 30px rgb(63 65 67 /60);
+*/
+
+@import url('https://fonts.googleapis.com/css27family=Quicksad:wght0400;6000display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background:linear-gradient(-20deg, #ff2846, 0x,#6944ff 100%);
+}
+.f-27{
+    font-size: 27px;
+}
+.f-18{
+    font-size: 18px;
+}
+.f-24px{
+    font: size 24px; ;
+}
+
+box{
+    background: #fff;
+    border-radius: 20px;
+    box-shadow:0px 8px 60px -10px rgb(13 28 39 / 60%);
+
+}
+
+.profil-img img{
+    width: 150px;
+    height: 150px;
+    box-shadow: rgb(238 43 90) 0px 5px 50px 0px, rgb(117 65 239 / 73%)0px 0px 0px 7px;
+}.m-top{
+    margin-top: -80px;
+}
+
+.box a.facebook{
+    backgraund:linear-gradien(45deg, #3b5998, #0078d7);
+box-shadow:0px 4px 20px rgb(43 98 169 / 50%);
+    
+
+}
+.box a.instagram{
+    Backgraund:linear-gradien(45deg, #405de6, #5851db, #833ab4, #c13584, #c1306c, #fd1d1d);
+box-shadow:0px 4px 3px rgb(19 127 212 / 70%);
+
+}
+.box a.twitter {
+    backraund:linear-gradien(45deg, #1da1fa, #0e71c8);
+    box-shadouw: 0px, 4px, 30px,rgb(19 127 212 / 70%);
+    
+}
+.box a.github{
+    backraund: linear-gradien(45deg, #333333, #626673);
+box-shadow:0px, 4px 30px rgb(63 65 67 /60);
+
+}
